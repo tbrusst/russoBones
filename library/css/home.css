@@ -1,0 +1,1245 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+  background-color: #dddddd;
+  color: black;
+  height: 10rem;
+
+}
+
+.footer p {
+  width: 100%;
+
+
+  float: left;
+}
+
+.foot-nav a {
+  color: black !important;
+  width: 100vw;
+}
+
+#inner-footer {
+  position: relative;
+
+  width: 80vw;
+  margin: 0 !important;
+
+}
+
+#inner-footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+
+  
+  color: black !important;
+  text-decoration: none;
+
+  width: 100vw;
+  margin: 0 !important;
+
+}
+
+#inner-footer li {
+  padding-right: 1rem;
+}
+
+.footer a {
+  color: black !important;
+  text-decoration: none;
+}
+
+
+
+
+
+div#FeaturedWorkLeft {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+
+}
+
+
+img#FeaturedWorkLeft {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: .5s;
+}
+
+div#FeaturedWorkRight {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: .5s;
+}
+
+
+img#FeaturedWorkRight {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+}
+
+div#FeaturedWorkTop {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: .5s;
+}
+
+
+img#FeaturedWorkTop {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+}
+
+.popUp {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+
+
+
+
+
+
+nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  padding: 0 2vw 0 0;
+}
+
+.header {
+
+  width: 100vw;
+}
+#inner-header {
+  display: inline-block !important;
+}
+
+nav ul {
+  display: inline-block !important;
+}
+
+nav ul li {
+  display: inline-block !important;
+}
+
+/*video*/
+.bgvideo {
+  margin: 0px;
+  vertical-align: top;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden; }
+  .bgvideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+
+/*video*/
+
+
+.full {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.homeHeader {
+  position: relative;
+  z-index: 200;
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+
+}
+.nameTag {
+  color: white;
+  padding: 20vh 0 0 4vw;
+}
+
+.nameTag h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+
+.nameTag p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.info svg {
+  width: 30vw;
+
+}
+
+#moveMoreRect {
+  position: relative;
+
+  transform: translate( 23.67px, 27.33px);
+  transition: .3s ease-out;
+}
+a:hover #moveMoreRect{
+  transform: translate( 2px, 2px);
+}
+
+#moveMoreText {
+  position: relative;
+  transform: translate(175.59px, 125.18px);
+  transition: .3s ease-out;
+}
+a:hover #moveMoreText {
+
+  transform: translate(153.93px, 99.85px);
+}
+
+
+
+
+/*LEFT*/
+
+.FeaturedWorkLeft {
+  width: 100vw;
+  height: 110vh;
+  background-color: white !important;
+  overflow: hidden;
+}
+
+.FeaturedWorkLeft * {
+  position: relative;
+  z-index: 10;
+}
+
+.FeaturedWorkLeft div.bar {
+  width: 100vw;
+  height: 10vh;
+  position: absolute !important;
+  top: 100vh;
+  left: 0;
+  z-index: 25 !important;
+}
+
+.FeaturedWorkLeft h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.FeaturedWorkLeft p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .8rem;
+}
+
+.FeaturedWorkLeft img {
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  left: 0;
+}
+
+.FeaturedWorkLeft div.info{
+  z-index: 20;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  padding:  0 5vw ;
+  position: absolute;
+  left: 0;
+  top: 45vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*RIGHT */
+
+
+
+.FeaturedWorkRight {
+  width: 100vw;
+  height: 100vh;
+  background-color: white !important;
+  overflow: hidden;
+}
+
+.FeaturedWorkRight * {
+  position: relative;
+  z-index: 10;
+}
+
+.FeaturedWorkRight div.bar {
+  width: 100vw;
+  height: 30vh;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 1 !important;
+}
+
+.FeaturedWorkRight h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.FeaturedWorkRight p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .8rem;
+}
+
+.FeaturedWorkRight img {
+  width: 90vw;
+  height: auto;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+}
+
+.FeaturedWorkRight div.info{
+  width: 100vw;
+  position: absolute;
+  left: 0vw;
+  top: 50vh;
+  padding: 0 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*TOP */
+
+
+.FeaturedWorkTop {
+  width: 100vw;
+  height: 110vh;
+  background-color: white !important;
+  overflow: hidden;
+}
+
+.FeaturedWorkTop * {
+  position: relative;
+  z-index: 10;
+}
+
+.FeaturedWorkTop div.bar {
+  width: 100vw;
+  height: 10vh;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 1 !important;
+}
+
+.FeaturedWorkTop h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+
+}
+
+.FeaturedWorkTop img {
+  top: 5vh;
+  width: 94vw;
+  height: auto;
+  position: absolute;
+  left: 3vw;
+}
+
+
+.FeaturedWorkTop div.info{
+  width: 100vw;
+  position: absolute;
+  left: 0vw;
+  top: 50vh;
+  padding: 0 5vw;
+
+}
+
+.FeaturedWorkTop p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .8rem;
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    background-color: #dddddd;
+    color: black;
+    height: 10rem;
+
+  }
+
+  .footer p {
+    width: 50%;
+
+
+    float: left;
+  }
+
+  .foot-nav a {
+    color: black !important;
+    width: auto;
+  }
+
+  #inner-footer {
+    position: relative;
+    top: 0vh;
+    width: 80vw;
+    margin: 0 !important;
+
+  }
+
+  #inner-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: black !important;
+    text-decoration: none;
+
+    width: 100vw;
+    margin: 0 !important;
+    height: 10rem;
+    left: 0;
+    top: 0;
+    position: relative;
+
+  }
+
+  #inner-footer li {
+    padding-right: 1rem;
+  }
+
+  .footer a {
+    color: black !important;
+    text-decoration: none;
+  }
+
+
+  .homeHeader {
+    position: relative;
+    z-index: 200;
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+
+  }
+  .nameTag {
+    color: white;
+    padding: 0 0 0 4vw;
+  }
+
+  .nameTag h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin: 0;
+  }
+
+
+  .nameTag p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .info svg {
+    width: 20vw;
+
+  }
+
+  #moveMoreRect {
+    position: relative;
+
+    transform: translate( 23.67px, 27.33px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreRect{
+    transform: translate( 2px, 2px);
+  }
+
+  #moveMoreText {
+    position: relative;
+    transform: translate(175.59px, 125.18px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreText {
+
+    transform: translate(153.93px, 99.85px);
+  }
+
+
+
+
+  /*LEFT*/
+
+  .FeaturedWorkLeft {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkLeft * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkLeft div.bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute !important;
+    top: 90vh;
+    left: 0;
+    z-index: 25 !important;
+  }
+
+  .FeaturedWorkLeft h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkLeft p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+  }
+
+  .FeaturedWorkLeft img {
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    left: 10vw;
+  }
+
+  .FeaturedWorkLeft div.info{
+    z-index: 20;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding:  0 5vw ;
+    position: absolute;
+    left: 0;
+    top: 55vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*RIGHT */
+
+
+
+  .FeaturedWorkRight {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkRight * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkRight div.bar {
+    width: 100vw;
+    height: 30vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkRight h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkRight p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+  }
+
+  .FeaturedWorkRight img {
+    display: block;
+    margin: 0 auto;
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    top: 2vh;
+    left: 15vw;
+  }
+
+  .FeaturedWorkRight div.info{
+    width: 100vw;
+    position: absolute;
+    left: 0vw;
+    top: 60vh;
+    padding: 0 5vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*TOP */
+
+
+  .FeaturedWorkTop {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkTop * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkTop div.bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkTop h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 2rem;
+
+  }
+
+  .FeaturedWorkTop img {
+    display: block;
+
+    margin: 0 auto;
+    top: 5vh;
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    left: 15vw;
+  }
+
+
+  .FeaturedWorkTop div.info{
+    width: 100vw;
+    position: absolute;
+    left: 0vw;
+    top: 60vh;
+    padding: 0 5vw;
+
+  }
+
+  .FeaturedWorkTop p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+  .footer p {
+    width: 60%;
+
+
+    float: left;
+  }
+
+
+
+
+  nav {
+    padding: 0 10vw 0;
+  }
+
+
+  .homeHeader {
+    position: relative;
+    z-index: 200;
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+
+  }
+  .nameTag {
+    color: white;
+    padding: 0 0 0 4vw;
+  }
+
+  .nameTag h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin: 0;
+  }
+
+
+  .nameTag p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .info svg {
+    width: 15vw;
+
+  }
+
+  #moveMoreRect {
+    position: relative;
+
+    transform: translate( 23.67px, 27.33px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreRect{
+    transform: translate( 2px, 2px);
+  }
+
+  #moveMoreText {
+    position: relative;
+    transform: translate(175.59px, 125.18px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreText {
+
+    transform: translate(153.93px, 99.85px);
+  }
+
+
+
+
+  /*LEFT*/
+
+  .FeaturedWorkLeft {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkLeft * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkLeft div.bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute !important;
+    top: 90vh;
+    left: 0;
+    z-index: 25 !important;
+  }
+
+  .FeaturedWorkLeft h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkLeft p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+  }
+
+  .FeaturedWorkLeft img {
+    z-index: 1;
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    left: 25vw;
+  }
+
+  .FeaturedWorkLeft div.info{
+    z-index: 20;
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+    padding:  0 ;
+    position: absolute;
+    left: 15vw;
+    top: 60vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*RIGHT */
+
+
+
+  .FeaturedWorkRight {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkRight * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkRight div.bar {
+    width: 100vw;
+    height: 30vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkRight h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkRight p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+  }
+
+  .FeaturedWorkRight img {
+    margin: 0 auto;
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+  }
+
+  .FeaturedWorkRight div.info{
+    width: 70vw;
+    position: absolute;
+    left: 15vw;
+    top: 70vh;
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*TOP */
+
+
+  .FeaturedWorkTop {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkTop * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkTop div.bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkTop h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 2rem;
+
+  }
+
+  .FeaturedWorkTop img {
+    margin: 0 auto;
+    top: 5vh;
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    left: 20vw;
+  }
+
+
+  .FeaturedWorkTop div.info{
+    width: 70vw;
+    position: absolute;
+    left: 15vw;
+    top: 70vh;
+    padding: 0;
+
+  }
+
+  .FeaturedWorkTop p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+/*1100*/
+@media screen and (min-width: 1100px) {
+
+
+
+  .homeHeader {
+    position: relative;
+    z-index: 200;
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+
+  }
+  .nameTag {
+    color: white;
+    padding: 0 0 0 4vw;
+  }
+
+  .nameTag h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin: 0;
+  }
+
+
+  .nameTag p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+
+  .info svg {
+    width: 10vw;
+
+  }
+
+  #moveMoreRect {
+    position: relative;
+
+    transform: translate( 23.67px, 27.33px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreRect{
+    transform: translate( 2px, 2px);
+  }
+
+  #moveMoreText {
+    position: relative;
+    transform: translate(175.59px, 125.18px);
+    transition: .3s ease-out;
+  }
+  a:hover #moveMoreText {
+
+    transform: translate(153.93px, 99.85px);
+  }
+
+
+
+
+
+
+
+
+  /*LEFT*/
+
+  .FeaturedWorkLeft {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkLeft * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkLeft div.bar {
+    width: 10vw;
+    height: 100vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkLeft h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkLeft p {
+    font-family: 'Roboto Mono', monospace;'
+
+  }
+
+  .FeaturedWorkLeft img {
+    display: inline-block;
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 10vw;
+  }
+
+  .FeaturedWorkLeft div.info{
+    width: 30vw;
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*RIGHT */
+
+
+
+  .FeaturedWorkRight {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkRight * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkRight div.bar {
+    width: 10vw;
+    height: 100vh;
+    position: absolute !important;
+    top: 0;
+    left: 90vw;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkRight h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .FeaturedWorkRight p {
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .FeaturedWorkRight img {
+    display: inline-block;
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    top: 20vh;
+    left: 55vw;
+  }
+
+  .FeaturedWorkRight div.info{
+    width: 30vw;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*TOP */
+
+
+  .FeaturedWorkTop {
+    width: 100vw;
+    height: 100vh;
+    background-color: white !important;
+    overflow: hidden;
+  }
+
+  .FeaturedWorkTop * {
+    position: relative;
+    z-index: 10;
+  }
+
+  .FeaturedWorkTop div.bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+  }
+
+  .FeaturedWorkTop h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+
+  }
+
+  .FeaturedWorkTop img {
+    display: inline-block;
+    top: 5vh;
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 10vw;
+  }
+
+
+  .FeaturedWorkTop div.info{
+    width: 30vw;
+    position: absolute;
+    left: 60vw;
+    top: 20vh;
+    padding: 0;
+
+  }
+
+  .FeaturedWorkTop p {
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+
+}
+/* end 1100*/
