@@ -81,7 +81,11 @@ if ( ! isset( $content_width ) ) {
 
 // Thumbnail sizes
 add_image_size( 'bones-thumb-600', 600, 150, true);
-add_image_size( 'bones-thumb-300', 300, 100, true);
+add_image_size( 'bones-thumb-300', 300, 150, true);
+
+add_image_size( 'bones-thumb-300q', 300, 300, true);
+
+add_image_size( 'auto', auto, auto, true);
 
 
 /*
@@ -366,6 +370,47 @@ if(function_exists("register_field_group"))
 		'menu_order' => 0,
 	));
 }
+
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_journal',
+		'title' => 'Journal',
+		'fields' => array (
+			array (
+				'key' => 'field_599b5aaa1f93d',
+				'label' => 'Image',
+				'name' => 'journal_image',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_category',
+					'operator' => '==',
+					'value' => '4',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
+
+
 
 
 

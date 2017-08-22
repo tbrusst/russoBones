@@ -1362,7 +1362,7 @@ HEADER STYLES
   font-family: 'Roboto Mono', monospace;
   background-color: rgba(0,0,0,0);
   position: absolute;
-  z-index: 200;
+  z-index: 500;
 }
 
 

@@ -17,7 +17,7 @@
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		
+
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
@@ -32,7 +32,11 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-		<link rel="stylesheet" href="wp-content/themes/russoBones/library/css/home.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/home.css">
+
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/journal.css">
+
+
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Roboto+Mono" rel="stylesheet">
 
