@@ -408,6 +408,117 @@ if(function_exists("register_field_group"))
 	));
 }
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_about',
+		'title' => 'About',
+		'fields' => array (
+			array (
+				'key' => 'field_59a4c00dc6ea6',
+				'label' => 'Name',
+				'name' => 'name',
+				'type' => 'text',
+				'required' => 1,
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_59a4c030c6eaa',
+				'label' => 'Email',
+				'name' => 'email',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_59a4bfe8c6ea4',
+				'label' => 'BG Image',
+				'name' => 'bg_image',
+				'type' => 'image',
+				'required' => 1,
+				'save_format' => 'url',
+				'preview_size' => 'full',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_59a4bffac6ea5',
+				'label' => 'Middle Image',
+				'name' => 'mid_image',
+				'type' => 'image',
+				'required' => 1,
+				'save_format' => 'url',
+				'preview_size' => 'full',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_59a4c018c6ea7',
+				'label' => 'Line1',
+				'name' => 'line1',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_59a4c024c6ea8',
+				'label' => 'Line2',
+				'name' => 'line2',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_59a4c025c6ea9',
+				'label' => 'Line3',
+				'name' => 'line3',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page_template',
+					'operator' => '==',
+					'value' => 'about.php',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
+
 
 
 

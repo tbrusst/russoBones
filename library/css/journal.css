@@ -6,6 +6,12 @@
   background-color: black;
   display: none;
 }*/
+.page-template-journal header{
+  background-color: black;
+  color: white;
+  position: relative !important;
+  margin-bottom: 2vh;
+}
 #container {
   position: relative;;
 }
@@ -80,7 +86,7 @@ h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 2vh auto;
 
 }
 
@@ -99,7 +105,7 @@ h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 2vh auto;
 
 }
 

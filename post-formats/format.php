@@ -32,6 +32,7 @@
                   </p>
 
                 </header> <?php // end article header ?>
+                <?php the_field('hero_image'); ?>
 
                 <section class="entry-content cf" itemprop="articleBody">
                   <?php

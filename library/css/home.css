@@ -1,12 +1,14 @@
-.footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  clear: both;
-  background-color: #dddddd;
+.home header {
+  background-color: rgba(0,0,0,0);
   color: black;
-  height: 10rem;
+}
+.page-template-home footer{
+  color:black;
+}
+.footer {
+  background-color: #dddddd;
+height: 240px;
+padding: 1rem;
 
 }
 
@@ -36,7 +38,7 @@
   justify-content: flex-start;
 
 
-  
+
   color: black !important;
   text-decoration: none;
 
@@ -413,6 +415,9 @@ a:hover #moveMoreText {
 
 
 @media screen and (min-width: 600px) {
+  .page-template-home footer{
+    color:black;
+  }
   .footer {
     display: flex;
     flex-direction: row;
@@ -454,7 +459,7 @@ a:hover #moveMoreText {
     color: black !important;
     text-decoration: none;
 
-    width: 100vw;
+    width: 150vw;
     margin: 0 !important;
     height: 10rem;
     left: 0;
@@ -994,6 +999,13 @@ a:hover #moveMoreText {
 
 /*1100*/
 @media screen and (min-width: 1100px) {
+  #inner-footer ul {
+
+
+    width: 180vw;
+
+
+  }
 
 
 

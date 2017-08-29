@@ -34,7 +34,11 @@
 
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/home.css">
 
+
+
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/journal.css">
+
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/about.css">
 
 
 

@@ -24,6 +24,9 @@ the whole project.
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+.current-menu-item{
+  font-weight: bold;
+}
 /**
  * Correct `block` display not defined in IE 8/9.
  */
@@ -1305,7 +1308,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #f01d4f;
+  
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -1360,7 +1363,7 @@ HEADER STYLES
 *********************/
 .header {
   font-family: 'Roboto Mono', monospace;
-  background-color: rgba(0,0,0,0);
+
   position: absolute;
   z-index: 500;
 }
