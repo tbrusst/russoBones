@@ -1,43 +1,19 @@
 <?php get_header(); ?>
 
-			<div id="content">
+<div class="full aboutFull" style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/about1big.jpg); ?>)">
+	<img id="midImage"src="<?php echo get_template_directory_uri(); ?>/library/images/about2med.jpg" alt="">
+	<div class="aboutInfo">
+		<div class="insideInfo">
+			<h3>404</h3>
+			<p>You lost?</p>
+			<p>Try another page.</p>
+			<a href="mailto:russobrendanm@gmail.com"><p>Need Something?</p></a>
+		</div>
 
-				<div id="inner-content" class="wrap cf">
 
-					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+	</div>
 
-						<article id="post-not-found" class="hentry cf">
 
-							<header class="article-header">
-
-								<h1><?php _e( 'Epic 404 - Article Not Found', 'bonestheme' ); ?></h1>
-
-							</header>
-
-							<section class="entry-content">
-
-								<p><?php _e( 'The article you were looking for was not found, but maybe try looking again!', 'bonestheme' ); ?></p>
-
-							</section>
-
-							<section class="search">
-
-									<p><?php get_search_form(); ?></p>
-
-							</section>
-
-							<footer class="article-footer">
-
-									<p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
-
-							</footer>
-
-						</article>
-
-					</main>
-
-				</div>
-
-			</div>
+</div>
 
 <?php get_footer(); ?>

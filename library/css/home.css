@@ -259,13 +259,15 @@ a:hover #moveMoreText {
 
 .FeaturedWorkLeft h4 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  padding-top: .5rem;
   margin: 0;
 }
 
 .FeaturedWorkLeft p {
   font-family: 'Roboto Mono', monospace;
   font-size: .8rem;
+  margin-top: 0;
 }
 
 .FeaturedWorkLeft img {
@@ -325,21 +327,22 @@ a:hover #moveMoreText {
 
 .FeaturedWorkRight h4 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin: 0;
 }
 
 .FeaturedWorkRight p {
   font-family: 'Roboto Mono', monospace;
   font-size: .8rem;
+  margin-top: 0;
 }
 
 .FeaturedWorkRight img {
-  width: 90vw;
+  width: 80vw;
   height: auto;
   position: absolute;
   top: 5vh;
-  left: 5vw;
+  left: 10vw;
 }
 
 .FeaturedWorkRight div.info{
@@ -388,16 +391,16 @@ a:hover #moveMoreText {
 .FeaturedWorkTop h4 {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 
 }
 
 .FeaturedWorkTop img {
   top: 5vh;
-  width: 94vw;
+  width: 80vw;
   height: auto;
   position: absolute;
-  left: 3vw;
+  left: 10vw;
 }
 
 
@@ -413,9 +416,21 @@ a:hover #moveMoreText {
 .FeaturedWorkTop p {
   font-family: 'Roboto Mono', monospace;
   font-size: .8rem;
+  margin-top: 0;
 
 }
 
+@media screen and (min-width: 340px) {
+  .FeaturedWorkLeft div{
+    height: 100vh;
+  }
+  .FeaturedWorkRight div{
+    height: 100vh;
+  }
+  .FeaturedWorkTop div{
+    height: 100vh;
+  }
+}
 
 
 @media screen and (min-width: 600px) {
