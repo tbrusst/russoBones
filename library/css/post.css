@@ -1,0 +1,152 @@
+.post-template-default header{
+  background-color: black;
+  color: white;
+  position: relative !important;
+  margin-bottom: 0;
+}
+.post-template-default .wrap{
+  width: 100%;
+}
+.post-template-default #content{
+  margin-top: 0;
+
+}
+.postHead img{
+  width: 100vw;
+}
+.postHead h3 {
+  padding: 0 1.5rem;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  font-size: 1.5rem !important;
+}
+.postHead p {
+  padding: 0 1.5rem;
+  font-family: 'Roboto mono';
+}
+.postBod p {
+  font-family: 'Roboto Mono';
+}
+.post-template-default svg{
+  width: 45%;
+  padding: 0 1.5rem;
+}
+
+
+
+
+@media screen and (min-width: 650px){
+  .postHead img {
+    width: 100%;
+  }
+  .post-template-default svg{
+    width: 30%;
+  }
+
+  .category-featured-work {
+    width: 80%;
+  }
+  .post-template-default main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media screen and (min-width: 850px){
+  .postInfo{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left: 1vw;
+  }
+  .postHead {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .postHead h3 {
+    font-size: 1.4rem !important;
+  }
+  .postHead img {
+    width: 45%;
+    display: inline-block;
+    top: -50px;
+    position: relative;
+  }
+
+  .category-featured-work {
+    width: 70%;
+  }
+  .category-featured-work p {
+    font-size: .8rem;
+  }
+  .post-template-default main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-template-default svg{
+    width: 40%;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .gallery-item {
+    width: 45%;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-right: 2.5%;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 1000px){
+  .postBod p {
+    width: 80%;
+    margin: 0vh auto 3vh auto !important;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .postBod p {
+    width: 70%;
+    margin: 0vh auto 3vh auto !important;
+  }
+
+  .post-template-default svg{
+    width: 30%;
+    padding: 0 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1300px){
+  .postBod p {
+    width: 60%;
+    margin: 0vh auto 3vh auto !important;
+  }
+  .post-template-default svg{
+    width: 25%;
+    padding: 0 1.5rem;
+  }
+
+  .postInfo{
+    top: -5vh;
+  }
+
+}

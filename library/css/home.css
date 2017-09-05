@@ -184,6 +184,10 @@ nav ul li {
 
 }
 .nameTag {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: .5s;
   color: white;
   padding: 20vh 0 0 4vw;
 }
@@ -509,7 +513,7 @@ a:hover #moveMoreText {
   }
 
   .info svg {
-    width: 20vw;
+    width: 18vw;
 
   }
 
@@ -777,7 +781,7 @@ a:hover #moveMoreText {
   }
 
   .info svg {
-    width: 15vw;
+    width: 12vw;
 
   }
 
@@ -1255,3 +1259,10 @@ a:hover #moveMoreText {
 
 }
 /* end 1100*/
+
+@media screen and (min-width: 1400px) {
+  .info svg {
+    width: 7vw;
+  }
+
+}

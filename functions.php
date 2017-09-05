@@ -519,6 +519,77 @@ if(function_exists("register_field_group"))
 
 
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_head-text-post',
+		'title' => 'Head Text Post',
+		'fields' => array (
+			array (
+				'key' => 'field_59ab44c53432a',
+				'label' => 'Head Text',
+				'name' => 'head_text',
+				'type' => 'textarea',
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'formatting' => 'br',
+			),
+			array (
+				'key' => 'field_59ab447e5a6f0',
+				'label' => 'Live Link',
+				'name' => 'live_link',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_59ab44605a6ef',
+				'label' => 'Post Header Image',
+				'name' => 'post_header_image',
+				'type' => 'image',
+				'save_format' => 'url',
+				'preview_size' => 'full',
+				'library' => 'all',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+				array (
+					'param' => 'post_category',
+					'operator' => '==',
+					'value' => '3',
+					'order_no' => 1,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
+
+
+
 
 
 

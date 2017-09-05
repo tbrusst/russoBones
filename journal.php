@@ -36,6 +36,9 @@
 		<div id="<?php the_title(); ?>"class="zoomView">
 			<h4 class="zoomTitle"><?php the_title(); ?></h4>
 			<img width="auto" height="auto"src=<?php the_post_thumbnail('full'); ?>
+			<p style="color: white;
+    text-align: center;
+    font-family: 'Roboto Mono';">Close</p>
 
 
 		</div>

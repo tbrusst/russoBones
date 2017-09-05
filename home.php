@@ -121,7 +121,7 @@
 								<div class="">
 									<div class="info" id="<?php the_field('layout'); ?>">
 										<h4><?php the_title(); ?></h4>
-										<p><?php the_excerpt(); ?> </p>
+										<p><?php the_field('head_text'); ?> </p>
 
 										<a id="<?php the_field('layout'); ?>" href="<?php the_permalink(); ?>">
 										<svg id="move" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501.31 187.03">

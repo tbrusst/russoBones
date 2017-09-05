@@ -3,18 +3,23 @@
   cursor: crosshair;
   text-decoration: none;
 }
-.page-template-about a:hover{
-  color: white;
-  font-weight: bold;
-  cursor: crosshair;
-}
-
-.page-template-about a:visited{
+ a:hover{
   color: white;
 
   cursor: crosshair;
 }
-.page-template-about a:active{
+.insideInfo a:hover{
+ color: white;
+ font-weight: bold;
+ cursor: crosshair;
+}
+
+ a:visited{
+  color: white;
+
+  cursor: crosshair;
+}
+ a:active{
   color: white;
 
   cursor: crosshair;
@@ -39,6 +44,10 @@
   background-color: black;
 }
 .aboutFull{
+  opacity: 0;
+
+  transition: .5s ease-in-out;
+  transition-delay: .5s;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -69,26 +78,31 @@
 
 }
 .insideInfo{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: 1s;
   padding-top: 5vh;
-    top: 55vh;
-    position: absolute;
-    width: 100%;
-    left: -50vw;
-    height: 50vh;
-    background-color: black;
+  top: 55vh;
+  position: absolute;
+  width: 100%;
+  left: -50vw;
+  height: 50vh;
+  background-color: black;
 }
 #midImage{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: .5s ease-in-out;
+  transition-delay: 1.2s;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-
-top: 15vh;
-z-index: 100;
-
-
-width: 40vw;
+  top: 15vh;
+  z-index: 100;
+  width: 40vw;
 
 }
 

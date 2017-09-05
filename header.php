@@ -40,6 +40,8 @@
 
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/about.css">
 
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/post.css">
+
 
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Roboto+Mono" rel="stylesheet">
